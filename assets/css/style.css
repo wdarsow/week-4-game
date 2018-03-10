@@ -1,0 +1,68 @@
+body {
+    background-color: lightgray;
+}
+
+.header1 {
+    border: solid 3px black;
+    text-align: center;
+    font-size: 200%;
+    background-color: gray;
+    color: white;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.game-contents, .description {
+    margin-left: 2%;
+}
+
+.description {
+    width: 50%;
+    border: solid 3px black;
+    background-color: lightblue;
+    margin-top: 3%;
+    height: 300px;
+}
+
+.random-num {
+    width: 10%;
+    height: 50px;
+    border: solid 3px black;
+    background-color: lightblue;
+    margin-top: 2%;
+    float: left;
+}
+
+.win-loss {
+    border: solid 3px black;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 25%;
+    height: 50px;
+    background-color: lightblue;
+    float: left;
+}
+
+.empty {
+    clear: both;
+}
+
+.buttons {
+    margin-top: 2%;
+}
+
+.ptotalscore {
+    margin-top: 2%;
+    border: 2px solid black;
+    width: 15%;
+    height: 30px;
+    background-color: lightblue;
+}
+
+.total-score {
+    margin-top: 2%;
+    border: 2px solid black;
+    width: 15%;
+    background-color: lightblue;
+    height: 40px;
+}
