@@ -1,5 +1,6 @@
 body {
-    background-color: lightgray;
+    background-image: url("../images/background_img.jpg");
+    margin-bottom: 5%;
 }
 
 .header1 {
@@ -19,7 +20,7 @@ body {
 .description {
     width: 50%;
     border: solid 3px black;
-    background-color: lightblue;
+    background-color: lightgray;
     margin-top: 3%;
     height: 300px;
 }
@@ -28,19 +29,23 @@ body {
     width: 10%;
     height: 50px;
     border: solid 3px black;
-    background-color: lightblue;
+    background-color: lightgray;
     margin-top: 2%;
     float: left;
+    text-align: center;
+    line-height: 300%;
+    font-weight: bold;
 }
 
 .win-loss {
     border: solid 3px black;
     margin-top: 2%;
     margin-left: 2%;
-    width: 25%;
+    width: 10%;
     height: 50px;
-    background-color: lightblue;
+    background-color: lightgray;
     float: left;
+    font-weight: bold;
 }
 
 .empty {
@@ -56,13 +61,17 @@ body {
     border: 2px solid black;
     width: 15%;
     height: 30px;
-    background-color: lightblue;
+    background-color: lightgray;
+    font-weight: bold;
 }
 
 .total-score {
     margin-top: 2%;
     border: 2px solid black;
     width: 15%;
-    background-color: lightblue;
+    background-color: lightgray;
     height: 40px;
+    text-align: center;
+    line-height: 225%;
+    font-weight: bold;
 }
